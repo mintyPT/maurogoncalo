@@ -1,24 +1,76 @@
-.App {
-  text-align: center;
+.container {
+  margin-top: 80px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo {
+  fill: #c0392b;
+  fill: #ccc;
+  width: 120px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.sep {
+  color: #ccc;
+  font-size: 10px;
 }
 
-.App-intro {
-  font-size: large;
+.text {
+  font-size: 18px;
+  font-family: 'Quattrocento', serif;
+  color: #999;
+  font-weight: 200;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+ul {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a {
+  color: #e74c3c;
+}
+a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
 }
