@@ -56,6 +56,8 @@ class App extends Component {
               <li><a href="https://github.com/mintyPT">Github</a></li>
               <li className="sep">▪︎</li>
               <li><a href="https://twitter.com/mauro_goncalo">Twitter</a></li>
+              <li className="sep">▪︎</li>
+              <li><a href="https://medium.com/@mauro_goncalo">Medium</a></li>
             </ul>
           </div>
 
