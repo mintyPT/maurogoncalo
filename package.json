@@ -12,8 +12,8 @@
     "express": "4.13.3"
   },
   "scripts": {
-    "start": "PORT=3003 NODE_ENV=development nodemon server.js --ignore 'public/**/*.js' --ignore 'client/**/*.js' --ignore 'gulpfile.js'  --ignore 'node_modules/*' --ignore 'sessions/**/*.json' --ignore 'package.json' --ignore '.idea/*' --ignore '.git/*' --verbose",
-    "pm2": "pm2 stop server.js && PORT=3003 NODE_ENV=production pm2 start server.js"
+    "start": "PORT=3005 NODE_ENV=development nodemon server.js --ignore 'public/**/*.js' --ignore 'client/**/*.js' --ignore 'gulpfile.js'  --ignore 'node_modules/*' --ignore 'sessions/**/*.json' --ignore 'package.json' --ignore '.idea/*' --ignore '.git/*' --verbose",
+    "pm2": "pm2 stop server.js && PORT=3005 NODE_ENV=production pm2 start server.js"
   },
   "devDependencies": {
     "concurrently": "^3.1.0"
