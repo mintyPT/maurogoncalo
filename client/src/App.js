@@ -60,14 +60,7 @@ class App extends Component {
               <li><a href="https://medium.com/@mauro_goncalo">Medium</a></li>
             </ul>
           </div>
-
-
-
         </div>
-
-
-
-
       </div>
     );
   }
